@@ -1,0 +1,34 @@
+# CODEOWNERS file for monitoring-agent-166
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-release @Armor-test/dept-ui @Armor-test/grp-search
+
+# Directory ownership
+/migrations/ @Armor-test/squad-research @Armor-test/squad-mobile
+/docs/ @Armor-test/unit-devops @Armor-test/grp-reporting @Armor-test/dept-automation
+/src/ @Armor-test/dept-data @Armor-test/team-logging @Armor-test/team-core
+/common/ @Armor-test/team-logging @Armor-test/dept-ui @Armor-test/unit-cloud
+/extensions/ @Armor-test/unit-devops @Armor-test/dept-release @Armor-test/dept-identity
+/auth/ @Armor-test/dept-security @Armor-test/squad-tooling
+/shared/ @Armor-test/grp-payments @Armor-test/unit-test @Armor-test/dept-api
+/web/ @Armor-test/squad-ml @Armor-test/squad-product
+/utils/ @Armor-test/squad-mobile @Armor-test/squad-tooling @Armor-test/dept-identity
+/deploy/ @Armor-test/team-governance @Armor-test/squad-mobile @Armor-test/dept-test
+/static/ @Armor-test/grp-ui @Armor-test/grp-payments @Armor-test/squad-api
+/pkg/ @Armor-test/team-research @Armor-test/team-frontend
+
+# File type ownership
+*.cpp @Armor-test/squad-performance @Armor-test/unit-cloud
+*.jsx @Armor-test/team-reporting @Armor-test/dept-data @Armor-test/dept-billing
+*.ini @Armor-test/squad-product @Armor-test/team-research
+*.config @Armor-test/team-governance @Armor-test/squad-tooling @Armor-test/team-reporting
+*.scala @Armor-test/squad-research @Armor-test/dept-release @Armor-test/team-research
+*.xml @Armor-test/unit-cloud @Armor-test/squad-search
+*.json @Armor-test/dept-release @Armor-test/dept-api
+*.py @Armor-test/team-reporting @Armor-test/dept-ui
+*.proto @Armor-test/team-reporting @Armor-test/dept-notifications
+*.tf @Armor-test/squad-database @Armor-test/team-notifications @Armor-test/squad-qa
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
